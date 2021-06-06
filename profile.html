@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile details</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="./index.js"></script>
+ <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body style="background-color:white">
+
+<div class="container" style=" margin-top:6%">
+<div style=" margin-top:6%; ">
+ <h1>
+      <strong style="margin-left:44%">Users</strong>
+      </h1>
+      <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#" id="firstlink">Sort by First Name</a>
+    <a href="#" id="secondlink">Sort by Last Name</a>
+
+  </div>
+</div>
+      </div>
+
+
+      <!-- Image loader -->
+<div id='loader' style='display: none;background-color:white"'>
+ <img src='./images/starload.gif' width="auto" height="500px" style= "margin-left:200px; background-color:white">
+ <!-- <h5> loading</h5>-->
+</div>
+<!-- Image loader -->
+<table class="table table-bordered table-striped table-hover ">
+      <tbody>
+      <tr id="app" >
+      </tr>
+      </tbody>
+  </table>
+</div>
+</body>
+</html>
